@@ -1,0 +1,33 @@
+{
+  "name": "vuite-sandbox",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "bench": "vitest bench",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^3.0.2",
+    "axios": "^1.8.4",
+    "pinia": "^3.0.2",
+    "tailwind-variants": "^1.0.0",
+    "vitest": "^3.1.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "eslint": "^9.27.0",
+    "eslint-plugin-vue": "^10.1.0",
+    "globals": "^16.1.0",
+    "typescript-eslint": "^8.32.1",
+    "vite": "^6.2.0"
+  }
+}

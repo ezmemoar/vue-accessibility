@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+  --ui-primary: rgba(230, 111, 123);
+}
+
+@theme {
+  --color-teste: var(--ui-primary);
+}
+
+.gg {
+  @apply bg-blue-400 text-white;
+}
