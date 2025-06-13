@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { RouterLink } from 'vue-router';
-</script>
-
 <template>
   <div>
     <nav class="flex justify-between items-center py-5">
@@ -10,10 +6,13 @@ import { RouterLink } from 'vue-router';
       </div>
       <ul class="flex gap-3">
         <li>
-          <RouterLink to="/local">Local</RouterLink>
+          <ULink to="/">Home</ULink>
         </li>
         <li>
-          <RouterLink to="/store">Store</RouterLink>
+          <ULink to="/local">Local</ULink>
+        </li>
+        <li>
+          <ULink to="/store">Store</ULink>
         </li>
       </ul>
     </nav>
