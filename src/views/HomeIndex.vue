@@ -21,7 +21,7 @@
   <main class="space-y-10 mt-5">
     <header class="text-center">
       <h1 class="font-bold text-3xl">Accessibility</h1>
-      <h5 class="text-base">Penjelasan tentang accessibility</h5>
+      <p class="text-base">Penjelasan tentang accessibility</p>
     </header>
     <section aria-label="tentang accessibility" class="space-y-2">
       <h2 class="font-bold text-2xl">Apa itu accessibility</h2>
@@ -38,10 +38,10 @@
       <h3 class="font-bold text-lg">More links</h3>
       <ul class="flex flex-col list-disc ml-5">
         <li>
-          <a href="https://google.com">Google</a>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility">Apa itu accessibility?</a>
         </li>
         <li>
-          <a href="https://facebook.com">Facebook</a>
+          <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Dokumen WCAG 2</a>
         </li>
       </ul>
     </aside>
